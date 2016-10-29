@@ -2,7 +2,7 @@ FROM edison/download
 
 MAINTAINER hultqvist@silentorbit.com
 
-WORKDIR /home/edison/$YOCTO/poky
+WORKDIR /home/edison/iot-devkit-edison/$YOCTO/poky
 
 RUN source ./oe-init-build-env ../build_edison/          && \
     bitbake edison-image u-boot                          && \
