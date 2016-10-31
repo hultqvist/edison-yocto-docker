@@ -41,6 +41,7 @@ RUN apt-get install -y    \
       libvdeplug-dev      \
       libvte-2.90-dev     \
       libxen-dev          \
+      nano                \
       python              \
       socat               \
       texinfo             \

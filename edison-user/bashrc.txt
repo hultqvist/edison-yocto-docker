@@ -1,0 +1,6 @@
+alias mv="mv -i"
+alias ls="ls --color"
+alias grep="grep --color"
+
+# Default editor and browser
+export VISUAL=nano
