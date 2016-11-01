@@ -16,7 +16,7 @@ RUN	unzip $YOCTO.zip     && \
 	mv $YOCTO/* ~/       && \
 	rmdir $YOCTO/
 
-ADD icedtea7-native_2.1.3.bb /home/edison/poky/meta-java/recipes-core/icedtea/icedtea7-native_2.1.3.bb
-ADD local.conf /home/edison/build_edison/conf/local.conf
+#ADD icedtea7-native_2.1.3.bb /home/edison/poky/meta-java/recipes-core/icedtea/icedtea7-native_2.1.3.bb
+#ADD local.conf /home/edison/build_edison/conf/local.conf
 #ADD bblayers.conf /home/edison/build_edison/conf/bblayers.conf
 ADD edison-image.bb /home/edison/poky/meta-intel-edison/meta-intel-edison-distro/recipes-core/images/edison-image.bb
