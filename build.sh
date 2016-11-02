@@ -28,6 +28,8 @@ docker build --tag edison/download edison-download
 docker build --tag edison/image edison-image
 
 echo ""
+docker run edison/image
+docker ps -a | grep edison/image
 echo "docker cp CONTAINERID:/home/edison/toFlash.zip ."
 echo ""
 echo "All done"
